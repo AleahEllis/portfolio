@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'intro_head_rbase';
+    src: url('introheadr-base-webfont.eot');
+    src: url('introheadr-base-webfont.eot?#iefix') format('embedded-opentype'),
+         url('introheadr-base-webfont.woff2') format('woff2'),
+         url('introheadr-base-webfont.woff') format('woff'),
+         url('introheadr-base-webfont.ttf') format('truetype'),
+         url('introheadr-base-webfont.svg#intro_head_rbase') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    color: #b3d2ba:;
+	width: 400px;
+	height: 200px;
+}
+
+#list ol{
+	background-color: #F8F8F8;
+	color:#6b7f42;
+	font-family:sans-serif;
+
+}
+#nav, footer{
+	clear:both;
+	color: #ffffff;
+	background-color: #aeaca8;
+	height: 30px;
+}
+#nav ul{
+	margin: 0px;
+	padding: 5px 0px 5px 30px;
+}
+
+#nav li{
+	display: inline;
+	margin-right: 40px;
+}
+
+#nav li a{
+	color: #ffffff;
+}
+	
+#nav li a:hover, nav li a.current{
+		color: #000000
+	}
+#inlinks{}
+#blockquote{}
+}
+#table{
+	border:5px solid #5c5c5c;
+	margin: 0px 120px 0p 120px
+}
+.resize{
+	max-height: 100px
+}
+.button {
+  display: inline-block;
+  height: 30px;
+  background-image: url(normalstate.png);
+}
+.button:hover {
+  background-image: url(hoverstate.png);
+}
+/*coppied from stack overflow not sure how works or what to do*/
