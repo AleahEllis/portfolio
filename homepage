@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<link rel="stylesheet" href="stylesheet.css"/>
+		<title>Homepage</title>
+	</head>
+	<body>
+		<div style="background: transparent url(https://scontent-ord1-1.xx.fbcdn.net/hphotos-xlp1/v/t1.0-9/12524077_10154093856832697_3456276737391916919_n.jpg?oh=e8980c8b0567e237ebd47130ff69beb3&oe=57382F65)left top no-repeat; margin: 0px auto; padding: 200px 200px 200px; width: 100%; opacity:30%; background-attachment:scroll"/>
+	<!--not sure if this is css or html for the back ground picture. I copied this format off of stack overflow. why doesn't it go to full size, why doesn't the opacity change or scroll work?-->
+		<!==the java script button attempt==>
+		
+		<script type="text/javascript">Im a button, can you see me?<buttontype="button"
+		onclick="document.getElementById('demo').innerHTML = Date()">Click ME</button>
+		</script>
+
+		<div:"@font-face">
+			<h1>Aleah Ellis</h1>
+		</div>
+		
+		<div id="nav">
+			<nav>
+				<ul>
+					<li><a href="about.html">About</a></li>
+					<li><a href="contact.html">Contact</a></li>
+		  		</ul>
+		  	</nav>
+		</div>
+		
+		
+		</div>
+		
+		<div id="blockquote">
+			<blockquote cite="http://www.celebquote.com/701">"really great meaningfull quote from famous person or something?"
+			</blockquote>
+		</div>
+
+		<div id="table">
+			<table>
+				<thead><th>The required row of pictures</th></thead>
+				<!--how to get pictures without having to put them on the internet first? also tried to set the height and width and it didn't work so I deleated it and tried with the css doc. still not working?-->
+				<tr>
+					<td><img class="resize" src="https://scontent-ord1-1.xx.fbcdn.net/hphotos-xlp1/v/t1.0-9/12524077_10154093856832697_3456276737391916919_n.jpg?oh=e8980c8b0567e237ebd47130ff69beb3&oe=57382F65"/></td>
+					<td><img class="resize" src="https://scontent-ord1-1.xx.fbcdn.net/hphotos-xpt1/v/t1.0-9/12494977_10154093857122697_8900470827230245998_n.jpg?oh=c22491dfac8af2e15ce332b9523facbf&oe=573A314E"/></td>
+					<td><img class="resize" src="https://scontent-ord1-1.xx.fbcdn.net/hphotos-xfp1/v/t1.0-9/12548870_10154093857482697_3653585929427483769_n.jpg?oh=ba24e78a2f24d1be677ca1b8b8af7f30&oe=56FC6F16"/></td>
+				</tr>
+			</table>
+		</div>
+		
+		<div id="list"> 
+			<ol>
+				<li>item</li>
+				<li>item</li>
+				<li>item</li>
+			</ol>
+		</div>
+		
+		<h3>A heading followed by a related external link</h3>
+		<a href="http://www.htmlandcssbook.com/extras/">generally not helpful</a>
+		
+
+	</body>
+
+</html>
